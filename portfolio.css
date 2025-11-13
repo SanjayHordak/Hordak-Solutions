@@ -16,10 +16,9 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(./images/freepik__background__15061.png);
-    background-size: 85%;
-    background-position: 230% center;
-    background-repeat: no-repeat;
+    background-image: url(images/freepik__background__15061.png);
+    background-size: cover;
+    background-position: center;
 }
 .container{
     padding: 10px 10%;
@@ -382,9 +381,7 @@ nav ul .fa-circle-xmark{
 @media only screen and (max-width:600px){
     #header{
         background-image: url(images/freepik__background__15061.png);
-        background-size: 60%;
-        background-position: right top;
-        background-repeat: no-repeat;
+        
     }
 
     .header-text{
